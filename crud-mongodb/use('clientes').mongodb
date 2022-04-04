@@ -1,0 +1,7 @@
+use('clientes')
+
+db.clientes.insertOne({_id:1, "nome":"Luiz",
+"email":"luiz@gmail.com",
+"telefone":"81999557766"})
+
+db.clientes.find()
